@@ -1,5 +1,5 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
+import ReactDOM from 'react-dom';
 
 const App = () => {
     return (
@@ -11,4 +11,4 @@ const App = () => {
 
 ReactDOM.render(<App />, document.getElementById('app'));
 
-// this will not work on react 18 or later
+// this will not work unless you are react 18 and under.
